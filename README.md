@@ -4,7 +4,7 @@
 ETL Pipeline สำหรับ Omnichannel Retail Dataset แบบ Incremental และ Idempotent ตาม Lab Assignment
 
 ## Files
-- `pipeline.py` — source code
+- `W7_pipeline_en_67160225.ipynb` — source code
 - `retail_dw.db` — SQLite Star Schema หลังรันครบ batch 1-3
 - `quarantine.csv` — records ที่ไม่ผ่าน validation พร้อม reason_code
 - `pipeline_run_log.csv` — ประวัติการรัน pipeline
@@ -12,7 +12,7 @@ ETL Pipeline สำหรับ Omnichannel Retail Dataset แบบ Incremental
 
 ## Run
 ```bash
-python pipeline.py
+python W7_pipeline_en_67160225.ipynb
 ```
 
 Pipeline จะรันหลักฐาน 4 รอบ:
